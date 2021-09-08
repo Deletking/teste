@@ -1,0 +1,1 @@
+.content-img{position:relative}.content-img::before{background-color:var(--underline-color);z-index:-1;border-radius:64px;transform:rotate(-3.89deg)}article strong,span{font-family:RobotoRegular}.title,span{color:var(--underline-color)}article strong{font-family:RobotoBold;color:#959493}

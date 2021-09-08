@@ -1,0 +1,117 @@
+section {
+  overflow-x: hidden;
+}
+.btn {
+  background-color: orangered;
+  font-size: 18px;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* section advantage */
+.advantage {
+  position: relative;
+}
+.advantage .title {
+  font-size: 2rem;
+  color: var(--main-color-blue);
+}
+.advantage_image {
+  width: 400px !important;
+  text-align: center;
+  margin: 0 auto;
+}
+.advantage_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    text-align: center;
+}
+.advantage_content h3, .advantage_content h4 {
+ font-size: 3rem !important;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .advantage_image {
+    width: 300px !important;
+  }
+  .advantage_content h3, .advantage_content h4 {
+    font-size: 2rem !important;
+  }
+  .advantage .title {
+    font-size: 2rem;
+    color: var(--main-color-blue);
+    text-align: center;
+  }
+}
+
+.races {
+  background-color: #f8f8f8;
+  margin: 30px auto;
+  padding: 30px 0;
+  text-align: center;
+}
+.races .title {
+  font-family: RobotoLight;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.races h3 {
+  color: var(--main-color-blue);
+}
+.races .race {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.races .race.boi-1,
+.races .race.boi-3 {
+  background-position: 10%;
+}
+
+.races .race.boi-1 {
+  background-image: url(../images/vaca-listrada.webp);
+}
+
+.races .race.boi-2 {
+  background-image: url(../images/nelore.webp);
+}
+
+.races .race.boi-3 {
+  background-image: url(../images/bubalino.webp);
+}
+
+.races .race.boi-4 {
+  background-image: url(../images/jonathan-borba-I8izOBGFS7U-unsplash.webp);
+}
+
+.races .race.boi-5 {
+  background-image: url(../images/caprino.webp);
+}
+.probovino h3 {
+  font-size: 2rem;
+  color: var(--main-color-blue);
+}
+.probovino_content {
+ width: 100%;
+ padding: 0 20px;
+}
+.probovino p span {
+  color: orangered;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.probovino .btn {
+  margin-top: 30px;
+  font-weight: 500;
+  padding: 5px 20px;
+  background-color: orange;
+}

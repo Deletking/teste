@@ -1,0 +1,41 @@
+.title {
+  font-family: RobotoBold;
+  font-size: 2.8rem;
+}
+
+.text {
+  font-family: RobotoRegular;
+}
+
+.content-img {
+  position: relative;
+}
+
+.content-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-grey {
+  background-color: #e6e6e6;
+}
+
+.title.h3 {
+  color: #0b6384;
+  font-size: 3.5rem;
+  line-height: 0.9;
+}
+
+.sub-title {
+  font-family: RobotoRegular;
+  text-transform: uppercase;
+  color: #504c4b;
+
+  font-size: 2rem;
+}
+
+.sub-title strong {
+  color: #000;
+}
